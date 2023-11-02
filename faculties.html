@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+           
+          
+            function toggleContent(index) {
+            const content = document.getElementsByClassName("content")[index-1];
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          }
+          
+          
+                  </script>
+          
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IMIT MCA</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="computer-lab-banner.jpg" rel="icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <section class="pub-header">
+            <nav>
+                <a href="index.html"><img src="images/imit_logo.png"></a>
+                <div class="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="http://localhost/attendance-php/" target="_blank">ATTENDANCE</a></li>
+                        <li><a href="faculties.html">SUBJECTS</a></li>
+                        <li><a href="subjects.html">FACULTIES</a></li>
+                        <li><a href="findus.html">FIND US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav></section>
+            <br>
+            <br>
+            <br>
+
+        <section class="ourfacuu">
+            <h1>
+                <b>SUBJECTS OR COURSES PROVIDED</b>
+            </h1>
+            <p>
+                <b>The courses provided by our branch are the reason behind the successful journey of becoming a software engineer.</b>
+                <br>
+                <br>
+               <p>The M.C.A. program prepares students to take up positions as systems analysts, systems designers, programmers, and managers in any field related to information technology. The program, therefore, aims at imparting comprehensive knowledge with equal emphasis on theory and practice. The M.C.A. students are encouraged to spend a full semester working in the industry/ in the institute giving them insight into the workings of the IT world. However, the course curriculum will have enough flexibility to enable a student to undertake advance studies in Computer Science later on. </p>
+            </p>
+        </section>
+        
+        <section class="faculties">
+            <h1>SUBJECTS Provided</h1>
+            <p>by our department</p>
+            <div class="row">
+              <div class="faculties-col">
+                <div>
+                  <p>
+                    <button class="collapsible" onclick="toggleContent(1)">Software Engineering</button>
+                    <div class="content">
+                      <p>Mr.Satyaprakash Swain</p>
+                    </div>
+                  </p>
+                  <h>Software Engineering is an engineering branch related to the evolution of software product using well-defined scientific principles, techniques, and procedures</h>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="faculties-col">
+                <div>
+                  <p>
+                    <button class="collapsible" onclick="toggleContent(2)">Compiler Design</button>
+                    <div class="content">
+                      <p>Mrs.	Srutipragyan Swain</p>
+                    </div>
+                  </p></p>
+                  <h>Compiler design is the process of developing a program or software that converts human-written code into machine code. It involves many stages like lexical analysis, parsing, semantic analysis, code generation, optimization, etc.</h>
+                </div>
+              </div>
+              <div class="faculties-col">
+          
+                  <div>
+                      <p>
+                          <button class="collapsible" onclick="toggleContent(3)">Computer Networks</button>
+                          <div class="content">
+                              <p>Mrs. Sujata Ray</p>
+                            </div>
+                        </p>
+                        <h>A computer network is a set of devices connected through links. A node can be computer, printer, or any other device capable of sending or receiving the data.</h>
+                    </div>
+              </div>
+            </div>
+            <div class="row"> 
+              <div class="faculties-col">
+              
+                <div>
+                  <p>
+                    <button class="collapsible" onclick="toggleContent(4)">Analysis and Design of Algorithms</button>
+                    <div class="content">
+                      <p>Mrs.	Srutipragyan Swain</p>
+                    </div>
+                  </p>
+                  <h>Algorithm analysis is an important part of computational complexity theory, which provides theoretical estimation for the required resources of an algorithm to solve a specific computational problem. Analysis of algorithms is the determination of the amount of time and space resources required to execute it.</h>
+                </div>
+              </div>
+              <div class="faculties-col">
+               
+                  <div>
+                      <p>
+                          <button class="collapsible" onclick="toggleContent(5)">Object Oriented Programming using Java</button>
+                          <div class="content">
+                              <p>Dr. Suvendra Kumar Jayasingh</p>
+                            </div>
+                        </p>
+                        <h>OOps in java is to improve code readability and reusability by defining a Java program efficiently. The main principles of object-oriented programming are abstraction, encapsulation, inheritance, and polymorphism. These concepts aim to implement real-world entities in programs.</h>
+                    </div>
+              </div>
+            </div>
+            <div class="row"> 
+              <div class="faculties-col">
+              
+                <div>
+                  <p>
+                    <button class="collapsible" onclick="toggleContent(6)">Internet And Web Technology</button>
+                    <div class="content">
+                      <p>Prof.(Dr.) Manas Ranjan Kabat</p>
+                    </div>
+                  </p>
+                  <h>The Internet is a vast network that connects computers all over the world. Through the Internet, people can share information and communicate from anywhere with an Internet connection.</h>
+                </div>
+              </div>
+              <div class="faculties-col">
+              
+                <div>
+                  <p>
+                    <button class="collapsible" onclick="toggleContent(7)">Object Oriented Analysis and Design</button>
+                    <div class="content">
+                      <p>Mr.Satyaprakash Swain</p>
+                    </div>
+                  </p>
+                  <h>Object-oriented analysis and design is a technical approach for analyzing and designing an application, system, or business by applying object-oriented programming, as well as using visual modeling throughout the software development process to guide stakeholder communication and product quality. </h>
+                </div>
+              </div>
+            </div>
+            <div class="row"> 
+              <div class="faculties-col">
+              
+                <!-- <img src="images/faculty_photos/satya-prakash-sahoo.jpg"> -->
+                    <div>
+                        <p>
+                            <button class="collapsible" onclick="toggleContent(8)">Database Engineering</button>
+                            <div class="content">
+                                <p>Dr. Suvendra Kumar Jayasingh</p>
+                              </div>
+                          </p>
+                          <h>Database administration is the function of managing and maintaining database management systems software. Mainstream DBMS software such as Oracle, IBM Db2 and Microsoft SQL Server need ongoing management.</h>
+                      </div>
+                </div>
+                <div class="faculties-col">
+             
+                  <div>
+                    <p>
+                      <button class="collapsible" onclick="toggleContent(9)">Operating System</button>
+                      <div class="content">
+                        <p>Mr.Satyaprakash Swain</p>
+                      </div>
+                    </p>
+                    <h>An operating system (OS) is the program that, after being initially loaded into the computer by a boot program, manages all of the other application programs in a computer.</h>
+                  </div>
+                </div>
+              </div>
+            <div class="row"> 
+                <div class="faculties-col">
+                    <div>
+                      <p>
+                        <button class="collapsible" onclick="toggleContent(10)">Computer Architecture</button>
+                        <div class="content">
+                          <p>Mrs.	Srutipragyan Swain</p>
+                        </div>
+                      </p>
+                      <h>Computer architecture can be defined as a set of rules and methods that describe the functionality, management and implementation of computers. To be precise, it is nothing but rules by which a system performs and operates. </h>
+                    </div>
+                  </div>
+      
+            </div>
+        </section>
+     
+
+<!--------------------footer------------->
+<section class="footer">
+    <h3>About Us</h3>
+    <p>
+        This is the website for Master of Computer Application Dept. of IMIT, Cuttack  which helps teachers to take the attendance and the students to see their attendance.
+    </p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <div class="credit">&copy; copyright @ 2022 by <span>NO ONE</span> | all rights reserved!</div>
+</section>
+<!-------------javascript for toggle menu-------------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right="0px";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+
+    </body>
+</html>
